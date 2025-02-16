@@ -11,3 +11,5 @@ main = do
     case date of
         Just d -> putStrLn $ formatTime defaultTimeLocale "%B %d, %Y :: %A" d
         Nothing -> putStrLn "Howto run : ./date <YYYYMMDD>"
+-- compile :: ghc -O2 -o date date.hs
+-- execute :: ./date 19821105
