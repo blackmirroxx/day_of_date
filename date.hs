@@ -13,3 +13,4 @@ main = do
         Nothing -> putStrLn "Howto run : ./date <YYYYMMDD>"
 -- compile :: ghc -O2 -o date date.hs
 -- execute :: ./date 19821105
+-- does not work on older versions 
